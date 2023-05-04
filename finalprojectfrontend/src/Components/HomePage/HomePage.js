@@ -5,9 +5,10 @@ import Footer from '../Layouts/Footer/Footer'
 import CardList from './CardList/CardList'
 
 const HomePage = () => {
+  const role="none"
   return (
     <div className='main-container'>
-        <Navbar />
+        <Navbar role={role}/>
         <ImageContainer />
         <CardList />
         <Footer />

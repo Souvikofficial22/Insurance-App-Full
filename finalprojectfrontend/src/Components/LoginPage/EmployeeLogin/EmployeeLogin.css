@@ -1,0 +1,16 @@
+.employee-container{
+    background-image: url(E:\finalprojectfrontend\public\images\employeeback.jpg);
+    height: 450px;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.admin-container::before{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login{
+    width: 400px;
+    height: min-content;
+    border-radius: 3px;
+}
