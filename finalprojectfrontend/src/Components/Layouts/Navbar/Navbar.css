@@ -1,0 +1,10 @@
+.btn-outline-primary{
+    padding: 3px;
+    border: none;
+    /* color: black; */
+    
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+  }

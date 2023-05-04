@@ -1,0 +1,11 @@
+.footer-container{
+    background-color: black;
+    /* position: absolute; */
+  height:89px;
+  /* height: calc(100vh - 0px);
+  overflow-y: hidden; */
+  color: white;
+}
+p{
+    padding-top: 3px;
+}

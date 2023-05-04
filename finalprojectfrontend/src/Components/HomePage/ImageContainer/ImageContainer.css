@@ -1,0 +1,13 @@
+img{
+    height: 400px;
+    width: 100%;
+    /* margin-left: 0px!important;
+    margin-right: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important; */
+}
+.image-container{
+    width:100%;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
