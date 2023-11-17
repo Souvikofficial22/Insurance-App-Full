@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=01-Insurance-App/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.monocept.service{IAdminService.java[IAdminService" modifiers="513" timestamp="1682784222051"/>
+    <typeInfo handle="=01-Insurance-App/C:\/Users\/usr\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.0.5\/spring-data-jpa-3.0.5.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.0.5=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1682712192503"/>
+    <typeInfo handle="=01-Insurance-App/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.monocept.service{IUserService.java[IUserService" modifiers="513" timestamp="1683658368653"/>
+    <typeInfo handle="=01-Insurance-App/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.monocept.service{ICityService.java[ICityService" modifiers="513" timestamp="1683556522409"/>
+</typeInfoHistroy>

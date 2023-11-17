@@ -5,13 +5,18 @@ import Footer from '../Layouts/Footer/Footer'
 import CardList from './CardList/CardList'
 
 const HomePage = () => {
-  const role="none"
+  const user={
+    role : "",
+    username: ""
+  }
   return (
-    <div className='main-container'>
-        <Navbar role={role}/>
+    <div className="mycontainer">
+      <header><Navbar user={user}/></header>
+        <main>
         <ImageContainer />
-        <CardList />
-        <Footer />
+        {/* <CardList /> */}
+        </main>
+        <footer><Footer /></footer>
     </div>
   )
 }

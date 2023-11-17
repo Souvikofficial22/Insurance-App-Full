@@ -1,0 +1,94 @@
+
+  
+    h1 {
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    }
+
+
+.app__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .app__grid {
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .app__grid {
+      margin-top: 1px; 
+    }
+  }
+
+  .mycard h3 {
+    z-index: 1;
+    margin-top: 1rem;
+    font-size: 1em;
+  }
+
+  .mycard {
+    width: 190px;
+    height: 254px;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    border-radius: 3%;
+    color: black;
+
+    &:hover{
+      transform: scale(1.05);
+    }
+  }
+
+  .text {
+    max-width: 55px;
+    color: var(--primary-color)
+  }
+  
+  .image {
+    background: rgb(241, 241, 241);
+    width: 50%;
+    height: 50%;
+    /* display: grid; */
+    place-items: center;
+    border-radius: 10%;
+    z-index: 1;
+    margin-left: 3rem;
+    margin-top: 2rem;
+  }
+   
+   .mycard:hover {
+    opacity: 0.8;
+    transform: scale(1.10);
+   }
+
+   /* .app__grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  h3 {
+    margin-left: 4rem;
+    margin-right: 2rem;
+  }
+  
+  /*.image {
+    width: 100%;
+    /* height: auto; */
+    /* margin: 3rem 0; */
+  /* } */
+  

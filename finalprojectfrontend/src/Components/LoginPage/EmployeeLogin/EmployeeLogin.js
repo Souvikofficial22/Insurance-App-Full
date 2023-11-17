@@ -7,6 +7,10 @@ import Navbar from '../../Layouts/Navbar/Navbar'
 import './EmployeeLogin.css'
 
 const EmployeeLogin = () => {
+    const user={
+        role : "",
+        username: ""
+      }
     const username = useRef()
     const password = useRef()
     const navigateObject = new useNavigate()
@@ -51,7 +55,7 @@ const EmployeeLogin = () => {
 
   return (
     <>
-    <Navbar />
+    <Navbar user={user}/>
     <div className="employee-container">
     <div className='wrapper d-flex align-items-center justify-content-center w-100'>
         <div className='login mt-3'>

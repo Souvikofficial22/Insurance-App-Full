@@ -1,0 +1,64 @@
+.payment-form-container {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+   .payment-form-container h2{
+    margin-bottom: 15px;
+  }
+
+  #payment-type{
+    margin-bottom: 20px;
+  }
+
+  .Select {
+    width: 100%;
+  }
+  
+  .Select__control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+ .Select__option--is-selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .Select__option--is-focused {
+    background-color: #e8f0fe;
+  }
+  
+  .paymentform {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .myinput[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .mybutton[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  

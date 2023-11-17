@@ -7,6 +7,11 @@ import axios from 'axios'
 import { Await, useNavigate } from 'react-router-dom'
 const AdminLogin = () => {
 
+    const user={
+        role : "",
+        username: ""
+      }
+
     const username = useRef()
     const password = useRef()
     const navigateObject = new useNavigate()
@@ -38,6 +43,7 @@ const AdminLogin = () => {
                 const decode = jwtDecode(token)
                 const role = decode.roles
 
+                console.log(decode);
                 if (role === 'admin') {
                     localStorage.setItem('token', token);
                     navigateObject(`/admindashboard/${username.current.value}/${role}`);
@@ -51,10 +57,10 @@ const AdminLogin = () => {
 
   return (
     <>
-    <Navbar />
+    <Navbar user={user}/>
     <div className="admin-container">
     <div className='wrapper d-flex align-items-center justify-content-center w-100'>
-        <div className='login mt-3'>
+        <div className='admin-login mt-3'>
             <div class="card">
                 <div class="card-header">
                     Admin Login

@@ -8,3 +8,8 @@
 .navbar-nav .dropdown:hover .dropdown-menu {
     display: block;
   }
+
+  .navbar {
+    background-color: transparent;
+  }
+  

@@ -5,7 +5,7 @@ const CommonNavbar = () => {
     <>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-        <a class="navbar-brand" href="/"><h2>Secure-Insurane <i className='fab fa-typo3' /></h2></a>
+        <a class="navbar-brand" href="/"><h2>Secure-Insurance <i className='fab fa-typo3' /></h2></a>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">

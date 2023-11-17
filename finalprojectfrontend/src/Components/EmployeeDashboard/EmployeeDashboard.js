@@ -7,7 +7,7 @@ const EmployeeDashboard = () => {
     const role = useParams().role
   return (
     <>
-        <Navbar role={role} />
+        {/* <Navbar role={role} /> */}
         <h1 className="d-flex align-items-center justify-content-center">Employee Dashboard</h1>
         
     </>
